@@ -11,6 +11,6 @@ function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
     ]
 }
 
-// console.log(hobbies("Piano", "Trekking", "Reading"))
+// console.log(hobbies("Playing Piano", "Trekking", "Reading"))
 
 module.exports = hobbies;

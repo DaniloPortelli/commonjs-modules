@@ -7,14 +7,13 @@
 const fullName = require("./names");
 const hobbies = require("./hobbies");
 
-
 // console.log(fullName("Danilo", "Portelli"));
 // console.log(hobbies("Piano", "Trekking", "Reading"));
 
 function aboutMe() {
     return {
         fullName: fullName("Danilo", "Portelli"),
-        hobbies: hobbies("Piano", "Trekking", "Reading")
+        hobbies: hobbies("Playing Piano", "Trekking", "Reading")
     }
 }
 
